@@ -1,5 +1,3 @@
-import animals from '../../data.js';
-
 export default function Animal(arg) {
   return (
     <div className="animal" style={{ top: `${arg.top}`, left: `${arg.left}` }}>
