@@ -12,7 +12,7 @@ export default function Main() {
           key={item.name}
           name={item.name}
           type={item.type}
-          text={item.says}
+          says={item.says}
           top={item.top}
           left={item.left}
         />
